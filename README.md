@@ -18,12 +18,20 @@ El reporte fue dividido en **cuatro páginas principales**:
   - Donut chart por estado civil
   - Gráfico combinado de empleados y salario promedio
 
+📷 ![Overview Page](screenshots/overview_page.png)
+
+---
+
 ### 2. **Diversity & Inclusion**
 - Análisis por género, edad, estado civil y etnia
 - Visuales:
   - TreeMap y gráficos apilados por género y edad
   - Distribución por estado civil (donut chart)
   - Visuales cruzadas por `Department`, `JobRole` y `Gender`
+
+📷 ![Diversity Page](screenshots/diversity_page.png)
+
+---
 
 ### 3. **Performance Tracker**
 - Página dinámica para hacer seguimiento individual
@@ -40,12 +48,18 @@ El reporte fue dividido en **cuatro páginas principales**:
     - `_WorkLifeBalance`
   - Gráficos por año con evolución de evaluaciones
 
+📷 ![Performance Tracker](screenshots/performance_tracker.png)
+
+---
+
 ### 4. **Attrition Insights**
 - Tasa de rotación por:
   - Departamento y cargo (TreeMap)
   - Año de contratación (`_%AttritionRateDate`)
 - Uso de relaciones inactivas activadas con `USERELATIONSHIP()` para trabajar con `HireDate`
 - Visuales explicativas de qué cohortes tienen mayor fuga de empleados
+
+📷 ![Attrition Insights](screenshots/attrition_insights.png)
 
 ---
 
